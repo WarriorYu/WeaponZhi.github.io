@@ -103,7 +103,7 @@ Hexo 官方文档  Next 官方文档
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3363394-edadf5e8d869c4f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3363394-44a385be060806fd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3363394-aa9c1fe8557665a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2017-01-04T06:02:56.972Z">
+<meta property="og:updated_time" content="2017-01-13T07:05:50.220Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="添加博客页面标签的小图标和标题">
 <meta name="twitter:description" content="博客搭建个人博客的搭建过程，Hexo和Next的官方教程无疑是最好的，并且因为都有中文版，所以每个人都可以上手。下面给出两个教程的地址，一步一步来，然后发挥你的创造力打造自己的博客吧！
@@ -388,21 +388,11 @@ Hexo 官方文档  Next 官方文档
 <p><a href="https://hexo.io/zh-cn/docs/setup.html" target="_blank" rel="external">Hexo 官方文档</a><br>  <a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">Next 官方文档</a></p>
 </blockquote>
 <hr>
-<h1 id="一些简单的配置"><a href="#一些简单的配置" class="headerlink" title="一些简单的配置"></a>一些简单的配置</h1><p>其中Next文档中介绍了很多第三方服务的集成方法，把它们根据你的喜好添加到你的博客中，将会极大的丰富和拓展你的个人空间。而往往只需要简单的在<code>_config.yml</code>文件中配置几句话就可以实现。<br>比如像这样的能显示评论者使用的代理信息（如操作系统、浏览器），只需要添加以下代码：       </p>
-<pre><code>duoshuo_info:
- ua_enable:true
- admin_enable:true
- user_id: 1234567 //多说网页的user_id
- admin_nickname:主编大人  //博主称呼
-</code></pre><p>形成的效果如下所示<br><img src="http://upload-images.jianshu.io/upload_images/3363394-edadf5e8d869c4f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="duoshuo-ua.png"><br><a id="more"></a></p>
-<h1 id="添加网页标签上的标题和图标"><a href="#添加网页标签上的标题和图标" class="headerlink" title="添加网页标签上的标题和图标"></a>添加网页标签上的标题和图标</h1><p>因为Hexo的部署代码<code>$ hexo d</code>会把整个<code>_config.yml</code>的配置转化成html代码，所以在配置里设置<code>title: WeaponZhi 用激情诠释生活</code>这段话虽然会在标签上显示出来，但页面标题也会更新成带有中文字样的，而我们想分离开的话，就需要每次手动更改<code>public</code>文件夹下的<code>index.html</code>中的代码</p>
-<pre><code>&lt;head&gt;
-...
-&lt;title&gt; WeaponZhi 用激情诠释生活&lt;/title&gt;
-&lt;/head&gt;
-</code></pre><p>同时添加页签前面的图标，注意，这里需要在public文件夹下保存一张名为<code>favicon</code>的ICO文件，生成ICO图片可以去类似<a href="http://www.ico.la/" target="_blank" rel="external">http://www.ico.la/</a>这样的ICO生成网站，大小选择32*32即可，然后在index.html文件中添加如下代码：</p>
-<pre><code>&lt;link rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;/favicon.ico?v=5.1.0&quot; /&gt;
-</code></pre><p>这时候，当你再次进入博客的时候，页签就会变成这样：</p>
+<h1 id="一些简单的配置"><a href="#一些简单的配置" class="headerlink" title="一些简单的配置"></a>一些简单的配置</h1><p>其中Next文档中介绍了很多第三方服务的集成方法，把它们根据你的喜好添加到你的博客中，将会极大的丰富和拓展你的个人空间。而往往只需要简单的在<code>_config.yml</code>文件中配置几句话就可以实现。<br>比如像这样的能显示评论者使用的代理信息（如操作系统、浏览器），只需要添加以下代码：<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="attr">duoshuo_info:</span></div><div class="line"><span class="attr"> ua_enable:</span><span class="literal">true</span></div><div class="line"><span class="attr"> admin_enable:</span><span class="literal">true</span></div><div class="line"><span class="attr"> user_id:</span> <span class="number">1234567</span> //多说网页的user_id</div><div class="line"><span class="attr"> admin_nickname:</span>主编大人  //博主称呼</div></pre></td></tr></table></figure></p>
+<p>形成的效果如下所示<br><img src="http://upload-images.jianshu.io/upload_images/3363394-edadf5e8d869c4f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="duoshuo-ua.png"><br><a id="more"></a></p>
+<h1 id="添加网页标签上的标题和图标"><a href="#添加网页标签上的标题和图标" class="headerlink" title="添加网页标签上的标题和图标"></a>添加网页标签上的标题和图标</h1><p>因为Hexo的部署代码<code>$ hexo d</code>会把整个<code>_config.yml</code>的配置转化成html代码，所以在配置里设置<code>title: WeaponZhi 用激情诠释生活</code>这段话虽然会在标签上显示出来，但页面标题也会更新成带有中文字样的，而我们想分离开的话，就需要每次手动更改<code>public</code>文件夹下的<code>index.html</code>中的代码<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">...</div><div class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span> WeaponZhi 用激情诠释生活<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>同时添加页签前面的图标，注意，这里需要在public文件夹下保存一张名为<code>favicon</code>的ICO文件，生成ICO图片可以去类似<a href="http://www.ico.la/" target="_blank" rel="external">http://www.ico.la/</a>这样的ICO生成网站，大小选择32*32即可，然后在index.html文件中添加如下代码：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"shortcut icon"</span> <span class="attr">type</span>=<span class="string">"image/x-icon"</span> <span class="attr">href</span>=<span class="string">"/favicon.ico?v=5.1.0"</span> /&gt;</span></div></pre></td></tr></table></figure></p>
+<p>这时候，当你再次进入博客的时候，页签就会变成这样：</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/3363394-44a385be060806fd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1482813008(1.png"><br>在浏览器中输入地址时候就会这样：</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/3363394-aa9c1fe8557665a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="微信截图_20161227123034.png"></p>
 <blockquote>
