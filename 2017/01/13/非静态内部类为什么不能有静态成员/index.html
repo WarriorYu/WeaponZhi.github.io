@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT,小之,Android,weaponzhi" />
+  <meta name="keywords" content="Java," />
 
 
 
@@ -84,15 +84,40 @@
 
 
 
-<meta name="description" content="用激情诠释生活，用代码彰显个性">
-<meta property="og:type" content="website">
-<meta property="og:title" content="WeaponZhi">
-<meta property="og:url" content="http://yoursite.com/tags/随笔/index.html">
+<meta name="description" content="看《Thinking in Java》的时候，根据书上代码进行编码的时候，发现了一个报错。
+public class A{
+    class B{
+        static int i = 0;//static报错
+    }  
+}
+在A类这个外部类里，非静态内部类拥有一个静态的整型成员变量i，这里编译不通过，编译器报：
+
+inner classes cannot have static">
+<meta property="og:type" content="article">
+<meta property="og:title" content="非静态内部类为什么不能有静态成员">
+<meta property="og:url" content="http://yoursite.com/2017/01/13/非静态内部类为什么不能有静态成员/index.html">
 <meta property="og:site_name" content="WeaponZhi">
-<meta property="og:description" content="用激情诠释生活，用代码彰显个性">
+<meta property="og:description" content="看《Thinking in Java》的时候，根据书上代码进行编码的时候，发现了一个报错。
+public class A{
+    class B{
+        static int i = 0;//static报错
+    }  
+}
+在A类这个外部类里，非静态内部类拥有一个静态的整型成员变量i，这里编译不通过，编译器报：
+
+inner classes cannot have static">
+<meta property="og:updated_time" content="2017-01-13T06:50:32.800Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="WeaponZhi">
-<meta name="twitter:description" content="用激情诠释生活，用代码彰显个性">
+<meta name="twitter:title" content="非静态内部类为什么不能有静态成员">
+<meta name="twitter:description" content="看《Thinking in Java》的时候，根据书上代码进行编码的时候，发现了一个报错。
+public class A{
+    class B{
+        static int i = 0;//static报错
+    }  
+}
+在A类这个外部类里，非静态内部类拥有一个静态的整型成员变量i，这里编译不通过，编译器报：
+
+inner classes cannot have static">
 
 
 
@@ -120,13 +145,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/随笔/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/01/13/非静态内部类为什么不能有静态成员/"/>
 
 
 
 
 
-  <title> 标签: 随笔 | WeaponZhi </title>
+  <title> 非静态内部类为什么不能有静态成员 | WeaponZhi </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -147,7 +172,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -250,102 +275,267 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        随笔
-        <small>标签</small>
-      </h2>
-    </div>
-
+  <div id="posts" class="posts-expand">
     
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/01/07/2017元旦-我的上海首拍之行-第二天/" itemprop="url">
-              
-                <span itemprop="name">2017元旦-我的上海首拍之行(第二天)</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-01-07T11:03:44+08:00"
-              content="2017-01-07" >
-          01-07
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/01/04/2017元旦-我的上海首拍之行/" itemprop="url">
-              
-                <span itemprop="name">2017元旦-我的上海首拍之行(第一天)</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-01-04T13:50:36+08:00"
-              content="2017-01-04" >
-          01-04
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/12/21/我的个人博客搭建成功啦！/" itemprop="url">
-              
-                <span itemprop="name">我的个人博客搭建成功啦!</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-12-21T14:44:31+08:00"
-              content="2016-12-21" >
-          12-21
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-    
-  </div>
 
   
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/13/非静态内部类为什么不能有静态成员/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="小之">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/uploads/img_head.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="WeaponZhi">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="WeaponZhi" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                非静态内部类为什么不能有静态成员
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-13T11:41:32+08:00">
+                2017-01-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <a href="/2017/01/13/非静态内部类为什么不能有静态成员/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/13/非静态内部类为什么不能有静态成员/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv">本文浏览量
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>看《Thinking in Java》的时候，根据书上代码进行编码的时候，发现了一个报错。</p>
+<pre><code>public class A{
+    class B{
+        static int i = 0;//static报错
+    }  
+}
+</code></pre><p>在A类这个外部类里，非静态内部类拥有一个静态的整型成员变量<code>i</code>，这里编译不通过，编译器报：</p>
+<blockquote>
+<p>inner classes cannot have static declarations</p>
+</blockquote>
+<p>解释过来就是，内部类不能拥有静态声明。但我们知道，静态内部类是没有这方面的限制的，不仅可以拥有静态声明，也可以拥有非静态声明，那么Java编译器为什么不允许非静态内部类拥有静态声明呢？<br><a id="more"></a></p>
+<h3 id="Static"><a href="#Static" class="headerlink" title="Static"></a>Static</h3><p>首先，当声明一个事物是<code>static</code>的时候，就意味着这个事物的调用不会与包含它的类的对象相关联，也就是说假设类A中有个静态方法a，那么调用的时候就只需要通过<code>A.a()</code>来调用，而不需要特意创建一个A的实例对象来进行调用，如果该方法不是static，那么调用该方法必须知道一起运作的特定对象后才能调用。</p>
+<p>同时，类中代码初始化的过程中，静态方法/静态域将会被优先访问，而且有关静态初始化的所有动作都会执行，但静态初始化只在Class对象首次加载的时候进行一次，如果这些静态方法和静态域在之前的对象创建过程中被初始化过了，那么这段静态代码将不会执行。</p>
+<h3 id="举个🌰？-代码源自Thinking-in-Java"><a href="#举个🌰？-代码源自Thinking-in-Java" class="headerlink" title="举个🌰？(代码源自Thinking in Java)"></a>举个🌰？(代码源自Thinking in Java)</h3><pre><code>import static net.mindview.util.Print.*;
+class Bowl{
+  Bowl(int marker){
+     print(&quot;Bowl(&quot;+ marker + &quot;)&quot;);
+  }
+   void f1(int marker){
+        print(&quot;f1(&quot;+ marker + &quot;)&quot;);
+    }
+}
+
+class Table{
+  static Bow1 bow1 = new Bowl(1);
+  Table(){
+    print(&quot;Table()&quot;);
+    bowl2.f1(1);
+  }
+  void f2(int marker){
+    print(&quot;f2(&quot;+ marker + &quot;)&quot;);
+  }
+  static Bowl bowl2 = new Bowl(2);
+}
+
+class Cupboard{    
+  Bowl bowl3 = new Bowl(3);    
+  static Bowl bowl4 = new Bowl(4);    
+  Cupboard(){       
+     print(&quot;Cupboard()&quot;);        
+     bowl4.f1(2);   
+ }    
+   void f3(int marker){     
+     print(&quot;f3(&quot;+marker+&quot;)&quot;);   
+ }   
+   static Bowl bowl5 = new Bowl(5);
+}
+
+public class StaticInitialization{   
+   public static void main(String[] args){        
+     print(&quot;Creating new Cupboard() in main&quot;);        
+     new Cupboard();        
+     print(&quot;Creating new Cupboard() in main&quot;);      
+     new Cupboard();
+     table.f2(1);
+     cupboard.f3(1);
+}    
+  static Table table = new Table();
+  static Cupboard cupboard = new Cupboard();
+}
+/** 
+* Output: 
+* Bowl(1) 
+* Bowl(2) 
+* Table 
+* f1(1) 
+* Bowl(4) 
+* Bowl(5)
+* Cupboard() 
+* f1(2) 
+* Creating new Cupboard() in main 
+* Bowl(3) 
+* Cupboard() 
+* f1(2) 
+* Creating new Cupboard() in main 
+* Bowl(3)
+* Cupboard()
+* f1(2) 
+* f2(1) 
+* f3(1)
+*/
+</code></pre><p>由代码可见，在类初始化的时候，不论静态代码块在什么位置，静态代码块都会优先执行完再走别的代码，例如<code>Cupboard</code>类初始化的时候，静态对象<code>bowl4</code>和<code>bowl5</code>都会先进行初始化，即使<code>bowl5</code>的初始化代码在<code>Cupboard代码块的最下面</code>。</p>
+<p>其次，<code>main</code>方法中，再次调用<code>new Cupboard()</code>的时候，类中的<code>bowl4</code>和<code>bowl5</code>对象因为在<code>StaticInitialization</code>类初始化的时候已经先初始化过了，所以没有被再次初始化。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>好了，根据上面的分析，我们应该大体能了解到为什么Java不能允许非静态内部类中拥有静态声明了</p>
+<blockquote>
+<ul>
+<li>如果在非静态类中拥有静态声明，那么该静态代码域的在类初始化过程中的执行顺序将不明确</li>
+<li>非静态内部类和外部类有关联，在调用的时候需要通过外部类的实例化对象进行调用，但静态声明的事物不依赖任何类的对象，所以在调用非静态内部类的静态声明事物（如果合法）将使得static的声明变得毫无意义</li>
+</ul>
+</blockquote>
+<p>菜鸟一个，欢迎交流</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Java/" rel="tag"># Java</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/01/07/2017元旦-我的上海首拍之行-第二天/" rel="next" title="2017元旦-我的上海首拍之行(第二天)">
+                <i class="fa fa-chevron-left"></i> 2017元旦-我的上海首拍之行(第二天)
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -353,6 +543,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/01/13/非静态内部类为什么不能有静态成员/"
+           data-title="非静态内部类为什么不能有静态成员" data-url="http://yoursite.com/2017/01/13/非静态内部类为什么不能有静态成员/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -372,8 +570,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/img_head.jpg"
@@ -455,6 +662,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Static"><span class="nav-number">1.</span> <span class="nav-text">Static</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#举个🌰？-代码源自Thinking-in-Java"><span class="nav-number">2.</span> <span class="nav-text">举个🌰？(代码源自Thinking in Java)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#总结"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
     </div>
@@ -556,6 +779,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
