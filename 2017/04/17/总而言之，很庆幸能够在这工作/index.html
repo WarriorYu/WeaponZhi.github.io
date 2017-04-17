@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Java," />
+  <meta name="keywords" content="工作,感悟," />
 
 
 
@@ -84,25 +84,30 @@
 
 
 
-<meta name="description" content="看《Thinking in Java》的时候，根据书上代码进行编码的时候，发现了一个报错。12345public class A&amp;#123;    class B&amp;#123;        static int i = 0;//static报错    &amp;#125;  &amp;#125;
-在A类这个外部类里，非静态内部类拥有一个静态的整型成员变量i，这里编译不通过，编译器报：
+<meta name="description" content="入职已经两周有余了，是时候总结一下这两周以来在新东家的所见所感了。
 
-inner classes">
+对新公司的印象和感受入职两周，基本上已经算是稳定了。公司体量不大，两个公司，南京这边总部大概 70 来人左右，环境很好，布置风格很时尚，整体色调清爽而又充满朝气。公司上下都是年轻人，绝大多数都是和我年纪相仿的，三位老板也很年轻，都不到 30，整个公司氛围非常有活力，大家交流起来也很轻松。
+不用多说，妹子也很多，但我初来乍到，工">
 <meta property="og:type" content="article">
-<meta property="og:title" content="非静态内部类为什么不能有静态成员">
-<meta property="og:url" content="http://yoursite.com/2017/01/13/非静态内部类为什么不能有静态成员/index.html">
+<meta property="og:title" content="总而言之，很庆幸能够在这工作">
+<meta property="og:url" content="http://yoursite.com/2017/04/17/总而言之，很庆幸能够在这工作/index.html">
 <meta property="og:site_name" content="WeaponZhi">
-<meta property="og:description" content="看《Thinking in Java》的时候，根据书上代码进行编码的时候，发现了一个报错。12345public class A&amp;#123;    class B&amp;#123;        static int i = 0;//static报错    &amp;#125;  &amp;#125;
-在A类这个外部类里，非静态内部类拥有一个静态的整型成员变量i，这里编译不通过，编译器报：
+<meta property="og:description" content="入职已经两周有余了，是时候总结一下这两周以来在新东家的所见所感了。
 
-inner classes">
-<meta property="og:updated_time" content="2017-01-13T07:03:46.381Z">
+对新公司的印象和感受入职两周，基本上已经算是稳定了。公司体量不大，两个公司，南京这边总部大概 70 来人左右，环境很好，布置风格很时尚，整体色调清爽而又充满朝气。公司上下都是年轻人，绝大多数都是和我年纪相仿的，三位老板也很年轻，都不到 30，整个公司氛围非常有活力，大家交流起来也很轻松。
+不用多说，妹子也很多，但我初来乍到，工">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3363394-1510e38ce16c5629.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3363394-bf52fa527b1eb842.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3363394-daa7513bde8a35c5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3363394-36459d7466142989.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2017-04-17T02:31:44.294Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="非静态内部类为什么不能有静态成员">
-<meta name="twitter:description" content="看《Thinking in Java》的时候，根据书上代码进行编码的时候，发现了一个报错。12345public class A&amp;#123;    class B&amp;#123;        static int i = 0;//static报错    &amp;#125;  &amp;#125;
-在A类这个外部类里，非静态内部类拥有一个静态的整型成员变量i，这里编译不通过，编译器报：
+<meta name="twitter:title" content="总而言之，很庆幸能够在这工作">
+<meta name="twitter:description" content="入职已经两周有余了，是时候总结一下这两周以来在新东家的所见所感了。
 
-inner classes">
+对新公司的印象和感受入职两周，基本上已经算是稳定了。公司体量不大，两个公司，南京这边总部大概 70 来人左右，环境很好，布置风格很时尚，整体色调清爽而又充满朝气。公司上下都是年轻人，绝大多数都是和我年纪相仿的，三位老板也很年轻，都不到 30，整个公司氛围非常有活力，大家交流起来也很轻松。
+不用多说，妹子也很多，但我初来乍到，工">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/3363394-1510e38ce16c5629.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
 
@@ -130,13 +135,13 @@ inner classes">
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/01/13/非静态内部类为什么不能有静态成员/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/04/17/总而言之，很庆幸能够在这工作/"/>
 
 
 
 
 
-  <title> 非静态内部类为什么不能有静态成员 | WeaponZhi </title>
+  <title> 总而言之，很庆幸能够在这工作 | WeaponZhi </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -270,7 +275,7 @@ inner classes">
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/13/非静态内部类为什么不能有静态成员/">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/17/总而言之，很庆幸能够在这工作/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="小之">
@@ -294,7 +299,7 @@ inner classes">
             
             
               
-                非静态内部类为什么不能有静态成员
+                总而言之，很庆幸能够在这工作
               
             
           </h1>
@@ -307,8 +312,8 @@ inner classes">
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-13T11:41:32+08:00">
-                2017-01-13
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-17T09:58:00+08:00">
+                2017-04-17
               </time>
             
 
@@ -326,8 +331,8 @@ inner classes">
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/技术/" itemprop="url" rel="index">
-                    <span itemprop="name">技术</span>
+                  <a href="/categories/工作/" itemprop="url" rel="index">
+                    <span itemprop="name">工作</span>
                   </a>
                 </span>
 
@@ -341,8 +346,8 @@ inner classes">
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/01/13/非静态内部类为什么不能有静态成员/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/13/非静态内部类为什么不能有静态成员/" itemprop="commentCount"></span>
+                <a href="/2017/04/17/总而言之，很庆幸能够在这工作/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/17/总而言之，很庆幸能够在这工作/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -373,25 +378,33 @@ inner classes">
       
 
       
-        <p>看《Thinking in Java》的时候，根据书上代码进行编码的时候，发现了一个报错。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">A</span></span>&#123;</div><div class="line">    <span class="class"><span class="keyword">class</span> <span class="title">B</span></span>&#123;</div><div class="line">        <span class="keyword">static</span> <span class="keyword">int</span> i = <span class="number">0</span>;<span class="comment">//static报错</span></div><div class="line">    &#125;  </div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>在A类这个外部类里，非静态内部类拥有一个静态的整型成员变量<code>i</code>，这里编译不通过，编译器报：</p>
-<blockquote>
-<p>inner classes cannot have static declarations</p>
+        <blockquote>
+<p>入职已经两周有余了，是时候总结一下这两周以来在新东家的所见所感了。</p>
 </blockquote>
-<p>解释过来就是，内部类不能拥有静态声明。但我们知道，静态内部类是没有这方面的限制的，不仅可以拥有静态声明，也可以拥有非静态声明，那么Java编译器为什么不允许非静态内部类拥有静态声明呢？<br><a id="more"></a></p>
-<h3 id="Static"><a href="#Static" class="headerlink" title="Static"></a>Static</h3><p>首先，当声明一个事物是<code>static</code>的时候，就意味着这个事物的调用不会与包含它的类的对象相关联，也就是说假设类A中有个静态方法a，那么调用的时候就只需要通过<code>A.a()</code>来调用，而不需要特意创建一个A的实例对象来进行调用，如果该方法不是static，那么调用该方法必须知道一起运作的特定对象后才能调用。</p>
-<p>同时，类中代码初始化的过程中，静态方法/静态域将会被优先访问，而且有关静态初始化的所有动作都会执行，但静态初始化只在Class对象首次加载的时候进行一次，如果这些静态方法和静态域在之前的对象创建过程中被初始化过了，那么这段静态代码将不会执行。</p>
-<h3 id="举个🌰？-代码源自Thinking-in-Java"><a href="#举个🌰？-代码源自Thinking-in-Java" class="headerlink" title="举个🌰？(代码源自Thinking in Java)"></a>举个🌰？(代码源自Thinking in Java)</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> <span class="keyword">static</span> net.mindview.util.Print.*;</div><div class="line">   <span class="class"><span class="keyword">class</span> <span class="title">Bowl</span></span>&#123;</div><div class="line">     Bowl(<span class="keyword">int</span> marker)&#123;</div><div class="line">        print(<span class="string">"Bowl("</span>+ marker + <span class="string">")"</span>);</div><div class="line">     &#125;</div><div class="line">      <span class="function"><span class="keyword">void</span> <span class="title">f1</span><span class="params">(<span class="keyword">int</span> marker)</span></span>&#123;</div><div class="line">           print(<span class="string">"f1("</span>+ marker + <span class="string">")"</span>);</div><div class="line">       &#125;</div><div class="line">   &#125;</div><div class="line"></div><div class="line">   <span class="class"><span class="keyword">class</span> <span class="title">Table</span></span>&#123;</div><div class="line">     <span class="keyword">static</span> Bow1 bow1 = <span class="keyword">new</span> Bowl(<span class="number">1</span>);</div><div class="line">     Table()&#123;</div><div class="line">       print(<span class="string">"Table()"</span>);</div><div class="line">       bowl2.f1(<span class="number">1</span>);</div><div class="line">     &#125;</div><div class="line">     <span class="function"><span class="keyword">void</span> <span class="title">f2</span><span class="params">(<span class="keyword">int</span> marker)</span></span>&#123;</div><div class="line">       print(<span class="string">"f2("</span>+ marker + <span class="string">")"</span>);</div><div class="line">     &#125;</div><div class="line">     <span class="keyword">static</span> Bowl bowl2 = <span class="keyword">new</span> Bowl(<span class="number">2</span>);</div><div class="line">   &#125;</div><div class="line"></div><div class="line">   <span class="class"><span class="keyword">class</span> <span class="title">Cupboard</span></span>&#123;    </div><div class="line">     Bowl bowl3 = <span class="keyword">new</span> Bowl(<span class="number">3</span>);    </div><div class="line">     <span class="keyword">static</span> Bowl bowl4 = <span class="keyword">new</span> Bowl(<span class="number">4</span>);    </div><div class="line">     Cupboard()&#123;       </div><div class="line">        print(<span class="string">"Cupboard()"</span>);        </div><div class="line">        bowl4.f1(<span class="number">2</span>);   </div><div class="line">    &#125;    </div><div class="line">      <span class="function"><span class="keyword">void</span> <span class="title">f3</span><span class="params">(<span class="keyword">int</span> marker)</span></span>&#123;     </div><div class="line">        print(<span class="string">"f3("</span>+marker+<span class="string">")"</span>);   </div><div class="line">    &#125;   </div><div class="line">      <span class="keyword">static</span> Bowl bowl5 = <span class="keyword">new</span> Bowl(<span class="number">5</span>);</div><div class="line">   &#125;</div><div class="line"></div><div class="line">   <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">StaticInitialization</span></span>&#123;   </div><div class="line">      <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;        </div><div class="line">        print(<span class="string">"Creating new Cupboard() in main"</span>);        </div><div class="line">        <span class="keyword">new</span> Cupboard();        </div><div class="line">        print(<span class="string">"Creating new Cupboard() in main"</span>);      </div><div class="line">        <span class="keyword">new</span> Cupboard();</div><div class="line">        table.f2(<span class="number">1</span>);</div><div class="line">        cupboard.f3(<span class="number">1</span>);</div><div class="line">   &#125;    </div><div class="line">     <span class="keyword">static</span> Table table = <span class="keyword">new</span> Table();</div><div class="line">     <span class="keyword">static</span> Cupboard cupboard = <span class="keyword">new</span> Cupboard();</div><div class="line">   &#125;</div><div class="line">   <span class="comment">/** </span></div><div class="line">   * Output: </div><div class="line">   * Bowl(1) </div><div class="line">   * Bowl(2) </div><div class="line">   * Table </div><div class="line">   * f1(1) </div><div class="line">   * Bowl(4) </div><div class="line">   * Bowl(5)</div><div class="line">   * Cupboard() </div><div class="line">   * f1(2) </div><div class="line">   * Creating new Cupboard() in main </div><div class="line">   * Bowl(3) </div><div class="line">   * Cupboard() </div><div class="line">   * f1(2) </div><div class="line">   * Creating new Cupboard() in main </div><div class="line">   * Bowl(3)</div><div class="line">   * Cupboard()</div><div class="line">   * f1(2) </div><div class="line">   * f2(1) </div><div class="line">   * f3(1)</div><div class="line">   */</div></pre></td></tr></table></figure>
-<p>由代码可见，在类初始化的时候，不论静态代码块在什么位置，静态代码块都会优先执行完再走别的代码，例如<code>Cupboard</code>类初始化的时候，静态对象<code>bowl4</code>和<code>bowl5</code>都会先进行初始化，即使<code>bowl5</code>的初始化代码在<code>Cupboard代码块的最下面</code>。</p>
-<p>其次，<code>main</code>方法中，再次调用<code>new Cupboard()</code>的时候，类中的<code>bowl4</code>和<code>bowl5</code>对象因为在<code>StaticInitialization</code>类初始化的时候已经先初始化过了，所以没有被再次初始化。</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>好了，根据上面的分析，我们应该大体能了解到为什么Java不能允许非静态内部类中拥有静态声明了</p>
-<blockquote>
-<ul>
-<li>如果在非静态类中拥有静态声明，那么该静态代码域的在类初始化过程中的执行顺序将不明确</li>
-<li>非静态内部类和外部类有关联，在调用的时候需要通过外部类的实例化对象进行调用，但静态声明的事物不依赖任何类的对象，所以在调用非静态内部类的静态声明事物（如果合法）将使得static的声明变得毫无意义</li>
-</ul>
-</blockquote>
-<p>菜鸟一个，欢迎交流</p>
+<h3 id="对新公司的印象和感受"><a href="#对新公司的印象和感受" class="headerlink" title="对新公司的印象和感受"></a>对新公司的印象和感受</h3><p>入职两周，基本上已经算是稳定了。公司体量不大，两个公司，南京这边总部大概 70 来人左右，环境很好，布置风格很时尚，整体色调清爽而又充满朝气。公司上下都是年轻人，绝大多数都是和我年纪相仿的，三位老板也很年轻，都不到 30，整个公司氛围非常有活力，大家交流起来也很轻松。</p>
+<p>不用多说，妹子也很多，但我初来乍到，工作为主，除了前台和 HR 两位妹子接触的比较多以外，其他女孩甚至连脸都没细看过几个。</p>
+<p>公司给每个人都配了最棒的电脑，产品设计团队集体 iMac，其他团队也是顶级的主机。我之所以在拿到 Offer 之后两天才入职，听说也是因为这两天我的电脑还没运过来。第一天主要就是去配置环境了，看了下电脑的配置，i7-7500，之后公司还给我们 Android 组每人配了块希捷的 1 TB 机械硬盘。过了两天我又把我的 「FILCO」键盘带了过去，一切就绪，工作环境非常完美。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/3363394-1510e38ce16c5629.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="办公环境"></p>
+<p>公司虽然体量小，但作为一家「金融互联网」公司，公司的业务还是非常不错的，靠着这业务养活自己也是完全没有问题，听嘉哥说（Android 团队主管），公司现在势头还是非常不错的。</p>
+<p>这我也能看得出来，毕竟从我来到现在，每天公司都在面试好多人，如果不是上升期，不会这样招人的。这里另外说一下，我们 Android 团队竟然多达 8 个人（后来走了一个，加上我一共在那会招了 2 个）。在公司「钉钉」上看了下，我司研发部除了 Android 最多的也就 5 个人，看来现在我司大量招人的状态应该还会持续段时间，如果有朋友想在南京找家有态度产品公司，可以找我私聊询问公司名（Android 应该是不招了）。</p>
+<p>实际上从被邀请面试那天起，我就一直被动或者主动的感知公司的活力。首先公司的福利特别好，每年有 14 薪，餐补，交通补，每周有一次固定的下午茶，这个下午茶我吃过三次了，第一次是「披萨」，第二次是「高档奶茶」，第三次是「水果拼盘」。每次把这些美味铺在大桌子上的场景着实让人咽口水，就像这样：</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/3363394-bf52fa527b1eb842.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="QQ图片20170405154506.jpg"><br><a id="more"></a><br>另外，每个月底都会举行一次生日会，这个月过生日的人都会作为寿星参加，大家集体围成一圈给你祝福，然后还有 3 块蛋糕一起分，最后唱唱生日歌许个愿啥的，就像这样：</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/3363394-daa7513bde8a35c5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="mmexport1490947866338.jpg"></p>
+<p>公司每年有两次集体旅游，为了帮助公司程序员同事脱单，他们过年前去了趟越南，玩完回来直接带媳妇回家过年，无缝衔接，简直完美。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/3363394-36459d7466142989.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1492393366870_副本.jpg"></p>
+<p>来公司后，和 Android 团队所有人吃了次饭，第二天正值公司 4 周年庆，又吃了一次饭，两次都喝得很多，第二次甚至坐到老板那个桌和老板们谈笑风生起来了，老板们也对我有了个印象。很是热闹。</p>
+<p>总之，这些虽然都是福利，但最终用心都可以归结到团队建设上来。体量越小的公司，就越应该专注于公司团队氛围和企业文化的建设，至少我司在这方面做的是非常不错的。这也是当初我找工作时对下家的期望之一。</p>
+<h3 id="对我所处的-Android-团队的感受"><a href="#对我所处的-Android-团队的感受" class="headerlink" title="对我所处的 Android 团队的感受"></a>对我所处的 Android 团队的感受</h3><p>虽然我才呆了十几天，但非常深刻的体会到了产品公司和外包公司对待技术上的巨大差异。</p>
+<p>如果让我用几个词语对现在技术团队的技术态度做个概括大概就是：<strong>偏执</strong>，<strong>执着</strong>，<strong>洁癖</strong>，<strong>完美主义</strong>。</p>
+<p>曾经我一度认为 Android 开发工程师就是根据 UI 设计师给的图来实现页面，然后再和服务端配合调试接口，只要能实现功能就行。实际上绝大多数外包公司的项目可能都是这样，没人管你代码到底写的规范不规范，因为代码只有你自己看，移动端开发人员往往也就 1，2 人，就算有一些交接上的工作，也是一对一的，别人不会管你代码写的啥样子，只要你能把需求做好就行，以后有 BUG 了也是你自己的事。</p>
+<p>但是在新公司，这些是绝对杜绝的，我来的第一天，主管就扔给我一篮子的文档，有 Git 相关操作的，有一些业务模块代码说明的，当然还有代码规范的文档。代码规范文档写的非常详细，规范也十分严格，不是说你想怎么写就怎么写的。比如一些命名规范；一些代码上的容错要求；比如你要写个异步操作，那么就必须用项目中已经封装好的公共类；甚至于你写个「for」循环都得按照要求；当然，还规定了你该如何写代码注释，哪些地方必须写注释；提交代码的时候 Log message 怎么写… 总之，细化到开发过程中的方方面面，都有了严格的规范。同时，每隔一段时间会有一次团队之间的代码 review，互相之间通过在代码中标记「todo」、「fixme」来提示一些需要改进的地方给同事。</p>
+<p>团队在技术上的追求和沉淀做的也非常好，技术团队对自身有严格的要求。项目中各种模块的封装和抽离都会在每次版本中以技术需求提出来，作为明确的开发任务分发给成员做，这个过程不仅是一次项目技术沉淀过程，更是很好的个人提升过程，因为这些任务往往涉及到架构和设计方面，具有一定的学习成本，挑战性很强，在分析问题和解决问题的过程中能非常有效的提升自己的技术能力。我想这是每天写一些业务逻辑代码永远都比不了的。</p>
+<p>比如同事之前花了 2 周时间做的组件化开发，把项目中所有常用的那些组件全部都统一规范，像表单，Dialog， TitleBar 这些平时开发过程中利用率特别高的组件，全部通过 Java 代码进行动态封装，高度的定制化。同事之前也是费了不少功夫，不过这种工作是有意义的，不仅极大的方便了日后的业务开发，对于他自身的封装架构思想的提升也是很有帮助的。</p>
+<p>又比如，实际上我从来公司到现在一直在做一个子模块的抽离，公司有一个很重要的长连接模块，因为之前和业务耦合很严重，但公司的很多项目都需要这个模块，所以就需要单独把这个模块抽离出来作为子模组，让不同的项目进行关联。这就需要把这个模块从业务中高度抽离，同时暴露出一些公用接口来让业务端进行创建和需求组合，从而达到解耦的目的。我花了 2 周时间基本抽离，这过程也学习了很多设计模式相关的知识，并投入在这次的抽离工作中。同时，为了实现子模组，也深入的学习了 Git 子模组相关的搭建方法。</p>
+<p>总而言之，我司技术上的工作很多都是那种有挑战性和一定的难度，但充满意义，也能真真切切的对个人成长非常有帮助的工作。公司是真正用心做产品的，把自己当做产品的主人，并用心在呵护和培养它，不断的优化和完善。我深深的被这种美好的「偏执」所吸引。</p>
+<p>今天下午的时候，嘉哥把我和另一位小伙伴叫着开会，他正式成立了架构组，成员就是我们三人，并阐述了架构组的工作方向。我觉得很兴奋，我感觉我正在成为一名脱离低级趣味和重复劳动的程序员，继续努力，说不定以后真的可以成为一名 Android 架构师了，真带劲。</p>
+<h3 id="珍惜现在"><a href="#珍惜现在" class="headerlink" title="珍惜现在"></a>珍惜现在</h3><p>当初面试这家公司的时候，我是非常渴望能在这里工作的，但因为找了有一个月了，对现在的环境非常不自信，当时就计划着如果这家公司不要我，我就去上海找了，虽然我如此的希望能在南京发展，但有时候就是这么无奈，总得有所舍弃。</p>
+<p>不过还好，似乎命运还是照顾着我的，一切正朝着最好的方向发展，机会给我了，就看我如何施展拳脚了。</p>
 
       
     </div>
@@ -415,7 +428,9 @@ inner classes">
       
         <div class="post-tags">
           
-            <a href="/tags/Java/" rel="tag"># Java</a>
+            <a href="/tags/工作/" rel="tag"># 工作</a>
+          
+            <a href="/tags/感悟/" rel="tag"># 感悟</a>
           
         </div>
       
@@ -424,8 +439,8 @@ inner classes">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/01/07/2017元旦-我的上海首拍之行-第二天/" rel="next" title="2017元旦-我的上海首拍之行(第二天)">
-                <i class="fa fa-chevron-left"></i> 2017元旦-我的上海首拍之行(第二天)
+              <a href="/2017/04/02/找工作第三十三天，我拿到了Offer/" rel="next" title="找工作第三十三天，我拿到了Offer">
+                <i class="fa fa-chevron-left"></i> 找工作第三十三天，我拿到了Offer
               </a>
             
           </div>
@@ -433,10 +448,6 @@ inner classes">
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/02/28/一次不妥协的离职决定/" rel="prev" title="一次不妥协的离职决定">
-                一次不妥协的离职决定 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -462,8 +473,8 @@ inner classes">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2017/01/13/非静态内部类为什么不能有静态成员/"
-           data-title="非静态内部类为什么不能有静态成员" data-url="http://yoursite.com/2017/01/13/非静态内部类为什么不能有静态成员/">
+      <div class="ds-thread" data-thread-key="2017/04/17/总而言之，很庆幸能够在这工作/"
+           data-title="总而言之，很庆幸能够在这工作" data-url="http://yoursite.com/2017/04/17/总而言之，很庆幸能够在这工作/">
       </div>
     
   </div>
@@ -589,7 +600,7 @@ inner classes">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Static"><span class="nav-number">1.</span> <span class="nav-text">Static</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#举个🌰？-代码源自Thinking-in-Java"><span class="nav-number">2.</span> <span class="nav-text">举个🌰？(代码源自Thinking in Java)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#总结"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#对新公司的印象和感受"><span class="nav-number">1.</span> <span class="nav-text">对新公司的印象和感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#对我所处的-Android-团队的感受"><span class="nav-number">2.</span> <span class="nav-text">对我所处的 Android 团队的感受</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#珍惜现在"><span class="nav-number">3.</span> <span class="nav-text">珍惜现在</span></a></li></ol></div>
             
 
           </div>
